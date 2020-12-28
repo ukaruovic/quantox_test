@@ -40,7 +40,7 @@ class Student
         return $this->grades;
     }
 
-    public function setGrades(Array $grades = [])
+    public function setGrades(array $grades = [])
     {
         $this->grades = [];
         if(count($grades)) {

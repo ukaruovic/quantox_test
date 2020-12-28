@@ -22,12 +22,14 @@ $commands = [
                                                     ON DELETE CASCADE)',
     "INSERT INTO students (name, board_type)
         VALUES
-            ('Petar Petrovic', 'SCM'),
-            ('Nikola Nikolic', 'SCM'),
-            ('Milos Milosevic', 'SCM'),
-            ('John Doe', 'SCMB'),
-            ('Jane Doe', 'SCMB'),
-            ('Gracie Weber', 'SCMB')
+            ('Petar Petrovic', 'CSM'),
+            ('Nikola Nikolic', 'CSM'),
+            ('Milos Milosevic', 'CSM'),
+            ('Milan Milanovic', 'CSM'),
+            ('John Doe', 'CSMB'),
+            ('Jane Doe', 'CSMB'),
+            ('Gracie Weber', 'CSMB'),
+            ('Michael Johnson', 'CSMB')
     ",
     "INSERT INTO student_grades (student_id, grade)
         VALUES
@@ -45,17 +47,17 @@ $commands = [
             (3, 7),
             (3, 9),
             
-            (4, 7),
-            (4, 6),
-            (4, 6),
-            (4, 9),
-            
-            (5, 6),
             (5, 7),
-            (5, 8),
+            (5, 6),
+            (5, 6),
+            (5, 9),
             
-            (6, 9),
-            (6, 9)
+            (6, 6),
+            (6, 7),
+            (6, 8),
+            
+            (7, 9),
+            (7, 9)
             "
 ];
 
